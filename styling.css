@@ -47,10 +47,7 @@ body {
   }
 
 
-  /* .item_number{
-   
-    
-  } */
+ 
 
 
   .check {
@@ -74,3 +71,32 @@ body {
     color: blue;
   }
   
+  @media screen and (max-width: 768px) {
+    
+    .headings {
+      margin: auto;
+      width: 90%;
+      height: 15%;
+      display: flex;
+     
+      justify-content: center;
+      align-items:flex-start;
+    }
+  
+    .item_container{
+     display: flex;
+     flex-direction: column;
+   margin: 0 10px;
+    
+    }
+
+    
+  .item1, .item2, .item3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+  }
+
+  }
